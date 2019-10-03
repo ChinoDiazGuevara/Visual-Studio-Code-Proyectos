@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="=Explorando y Aprendiendo HTML">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi primer pagina con HTML5</title>
+</head>
+
+<body>
+    <div class="Contenedor">
+    <header role="banner">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo empresa">
+        </div>
+        <nav class="navegación" role="navigation">
+           <ul>
+                <li><a href="index.html">Indice</a></li>
+                <li><a href="http://google.com.ar" target="_blank">Google</a></li>
+                <li><a href="naipes.html">Naipes</a></li>
+                <li><a href="#noticias">Ir a noticias</a></li>
+
+           </ul>
+        </nav>
+    </header>
+
+    <main class="Contenido Principal" role="main">
+        <section>
+            <h2>Nuestros cursos</h2>
+            <div>
+                <h3>HTML5</h3>
+                <img src="img/html5.png" height="200">
+                <a href="programa-html5.pdf" download>Descargar Programa</a>
+                <p>Ventajas de este Curso</p>
+                    <ul>
+                        <li>Lo puedes tomar en linea.
+                            <ul>
+                                <li>En Udemy</li>
+                                <li>A cualquier hora del dia</li>
+                            </ul>
+                        </li>
+                        <li>Avanza a tu ritmo</li>
+                        <li>Puedes preguntar tus dudas al Instructor</li>
+                    </ul>
+                    
+                    <p>Temario del Curso</p>
+                    <ol>
+                        <li>Basicos de HTML</li>
+                        <li>Etiquetas HTML5
+                            <ul>
+                                <li>Elementos Semanticos</li>
+                                <li>Header</li>
+                            </ul>
+                        </li>
+                        <li>Crear Enlaces</li>
+                        <li>Crear Listas</li>
+                    </ol>
+                    <p>Lo que deves aprender para ser Desarrollador Web:</p>
+                <dl>
+                    <dt>HTML5</dt>
+                    <dd>Agrega estructura a tus desarrollos</dd>
+                    <dt>CSS3</dt>
+                    <dd>Agrega presentación a tus desarrollos</dd>
+                    <dt>JavaScript</dt>
+                    <dd>Agrega inteligencia a tus desarrollos</dd>
+                </dl>
+
+            </div>
+            <div>
+                <h3>CSS3</h3>
+                <img src="img/css3.png" height="200">
+            </div>
+            <div>
+                <h3>JavaScript</h3>
+                <img src="img/js.jpg" height="200">
+            </div>
+        </section>
+
+        <section id="noticias">
+            <h2>Ultimas noticias</h2>
+            <article role="article">
+                <h3>Aprender a programar en el siglo XXI es muy importante </h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic blanditiis, adipisci libero odio vitae tenetur laborum animi. Quo iste alias molestias quas obcaecati minus nemo cumque, perspiciatis enim officia blanditiis.</p>
+            </article>   
+        </section>
+    </main> <!--Contenido-->
+
+    <aside role="complementary">
+        
+       <table width="300">
+            <caption><h2>Proximos Cursos</h2></caption>
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center">No te los puedes perder</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td rowspan="3">PHP</td>
+                    <td>$99</td>
+                </tr>
+                
+                <tr>
+                    <td>$99(Sabatino)</td>
+                </tr>
+                    
+                <tr>
+                    
+                    <td>$99</td>
+                    </tr>
+                <tr>
+                    <td>MySQL</td>
+                    <td>$99</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>$99</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>$99</td>
+                </tr>
+            </tbody>
+       </table>
+
+    </aside>
+      </div> 
+
+      <footer role="contentinfo">
+        <div class="Nosotros">
+            <h3>Sobre nuestra Escuela</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis atque perspiciatis tenetur animi enim eius aperiam accusamus nisi sed nam exercitationem cum, velit vero, deserunt, doloribus laboriosam quod non libero?</p>
+        </div>
+
+        <div class="Menu">
+            <nav class="navegacion" role="navigation">
+                menu aqui   
+            </nav>
+
+        </div>
+        <p>Curso de diseño Web &mdash; Todos los derechos reservados &copy;</p>
+      </footer>
+
+
+</body>
+</html>
