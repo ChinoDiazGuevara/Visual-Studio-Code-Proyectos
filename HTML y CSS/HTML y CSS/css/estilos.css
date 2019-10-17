@@ -129,3 +129,30 @@ img[id="logo"]{
 [class="seccion"]{
    background-color: white !important;
 }
+
+/** Selectores con Pseudo Clases **/
+div.menu nav ul li a:focus,
+div.menu nav ul li a:visited,
+div.menu nav ul li a:active{
+   color:black;
+}
+div.menu nav ul li a:hover{
+   color:orange;
+}
+h2:hover{
+   color:blue;
+}
+
+/** Selectores con Pseudo Clases y nth-child **/
+div.menu nav ul li:nth-child(1){
+   background-color: red;
+}
+div.menu nav ul li:nth-child(2){
+   background-color:yellow;
+}
+div.menu nav ul li:nth-child(3){
+   background-color:gray;
+}
+div.menu nav ul li:nth-child(4){
+   background-color: blue;
+}
