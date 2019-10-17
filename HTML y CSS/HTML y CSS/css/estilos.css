@@ -125,6 +125,7 @@ a[href*="google.com.ar"]{
 img[id="logo"]{
    margin-top: 0;
 }
+
 [class="seccion"]{
-   background-color: blue !important;
+   background-color: white !important;
 }
